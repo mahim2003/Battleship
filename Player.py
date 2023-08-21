@@ -19,15 +19,15 @@ class Player:
     def __init__(self):
         self.hand = []
         self.card_prototypes = [
-            (CardPrototype("Single Shot", "Attack 1 cell"), 0.2),
-            (CardPrototype("Triple Draw", "Draw 3 cards"), 0.1),
+            (CardPrototype("Single Shot", "Attack 1 cell"), 0.5),
+            (CardPrototype("Triple Draw", "Draw 3 cards"), 0.03),
             (CardPrototype("Triple Shot", "Attack any 3 cells"), 0.1),
-            (CardPrototype("Double Draw", "Draw 2 cards"), 0.1),
+            (CardPrototype("Double Draw", "Draw 2 cards"), 0.05),
             (CardPrototype("Single Shield", "Shield 1 ship cell"), 0.1),
             (CardPrototype("Single Repair", "Repair 1 ship cell"), 0.1),
-            (CardPrototype("Bomb", "Attack 9 in a square"), 0.1),
-            (CardPrototype("Full Shield", "Shield full ship"), 0.1),
-            (CardPrototype("Full Repair", "Repair full ship"), 0.1)
+            (CardPrototype("Bomb", "Attack 9 in a square"), 0.02),
+            (CardPrototype("Full Shield", "Shield full ship"), 0.05),
+            (CardPrototype("Full Repair", "Repair full ship"), 0.05)
         ]
 
     # Draw a random card from card prototypes and add it to player hand

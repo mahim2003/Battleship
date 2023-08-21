@@ -12,9 +12,9 @@ class AI:
         self.hand = []
         self.alreadyGuessed = []
         self.card_prototypes = [
-            (CardPrototype("Single Shot", "Attack 1 cell"), 0.5),
-            (CardPrototype("Triple Shot", "Attack any 3 cells"), 0.4),
-            (CardPrototype("Bomb", "Attack 9 in a square"), 0.1),
+            (CardPrototype("Single Shot", "Attack 1 cell"), 0.8),
+            (CardPrototype("Triple Shot", "Attack any 3 cells"), 0.19),
+            (CardPrototype("Bomb", "Attack 9 in a square"), 0.01),
         ]
     def add_cards_to_hand(self, level):
         for _ in range(level):
