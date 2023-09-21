@@ -1,6 +1,6 @@
 # Battleship  
 ### Description
-My group and I are working on creating our own version of Battleship with additional features that make the game fun and interesting, for example, playing an action card that allows you to guess 3 times in a row. 
+An online version of Battleship with some additional features. Created using PyGame.
 
 ### How to run the game
 **Step 1: Clone the repository**
